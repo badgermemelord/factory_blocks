@@ -90,6 +90,10 @@ public class RegisterBlocks
     public static final BaseFanBlock FAN_MALFUNCTION_ON = new RedstoneFanBlock(FabricBlockSettings.of(Material.METAL));
     public static final MediumFanBlock MEDIUM_FAN = new MediumFanBlock(FabricBlockSettings.of(Material.METAL).dynamicBounds().collidable(true));
 
+    //Lab Blocks
+
+
+
     public static void register()
     {
         addFactoryBlock(FACTORY_BASE, "factory");
